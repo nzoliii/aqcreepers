@@ -3,13 +3,13 @@
 		"modid": "aqcreepers",
 		"name": "Al Qaeda Creepers",
 		"description": "Replaces the default Creepers with Al Qaeda Creepers (muslim terrorists).",
-		"version": "${version}",
+		"version": "1.1",
+		"credits": "\n\n§9Andor2121:§f Giving me this idea and the Allahu Akbar sound.\n§9Tuzvarazslo:§f Giving me this idea.\n",
 		"mcversion": "1.12.2",
 		"url": "https://tiktok.com/@nzoliii",
-		"updateUrl": "",
-		"authorList": ["nzoliii"],
-		"credits": "§9Andor2121, Tuzvarazslo§f for giving me this idea.",
-		"logoFile": "",
+		"updateUrl": "https://melyallam.hu",
+		"authorList": ["§9nzoliii"],
+		"parent": "",
 		"screenshots": [],
 		"dependencies": []
 	}
