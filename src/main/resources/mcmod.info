@@ -1,0 +1,16 @@
+[
+	{
+		"modid": "aqcreepers",
+		"name": "Al Qaeda Creepers",
+		"description": "Replaces the default Creepers with Al Qaeda Creepers (muslim terrorists).",
+		"version": "${version}",
+		"mcversion": "1.12.2",
+		"url": "https://tiktok.com/@nzoliii",
+		"updateUrl": "",
+		"authorList": ["nzoliii"],
+		"credits": "§9Andor2121, Tuzvarazslo§f for giving me this idea.",
+		"logoFile": "",
+		"screenshots": [],
+		"dependencies": []
+	}
+]
