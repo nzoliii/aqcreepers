@@ -1,5 +1,7 @@
 package com.nzoliii.entity.mob;
 
+import javax.swing.JOptionPane;
+
 import java.util.Collection;
 import javax.annotation.Nullable;
 import net.minecraft.entity.Entity;
@@ -160,6 +162,7 @@ public class EntityAQCreeper extends EntityMob
     /**
      * Called to update the entity's position/logic.
      */
+    @Override
     public void onUpdate()
     {
         if (this.isEntityAlive())
@@ -176,6 +179,7 @@ public class EntityAQCreeper extends EntityMob
             if (i > 0 && this.timeSinceIgnited == 0)
             {
                 this.playSound(SoundEvents.ENTITY_CREEPER_PRIMED, 1.0F, 0.5F);
+                JOptionPane.showMessageDialog(null, "Creeper is priming.");
             }
 
             this.timeSinceIgnited += i;
@@ -189,6 +193,7 @@ public class EntityAQCreeper extends EntityMob
             {
                 this.timeSinceIgnited = this.fuseTime;
                 this.explode();
+                JOptionPane.showMessageDialog(null, "Creeper should have exploded.");
             }
         }
 
